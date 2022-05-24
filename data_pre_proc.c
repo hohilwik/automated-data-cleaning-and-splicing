@@ -73,7 +73,7 @@ int data_clean(char *filename)
 				line[i]=' ';
 			}
 		}
-		line[len-pos+1]='\0';
+		line[len-pos]='\0';
 		//print to dest file
 		fprintf(dest, "%s\n", line);
 		//printf("%s\n", line);
