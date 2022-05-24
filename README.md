@@ -12,6 +12,7 @@ This is for automation for data cleaning and splicing of data streams coming fro
 - Run `./proc` and the data will get cleaned, spliced, and placed in appropriate directories
 - Sensor count is automatically detected and taken care of for each file
 - Use the MATLAB script `graphing.m` to get graphs of your data, this script will give you file-wise plots, with different subplots for each sensor, and can easily be modified to do other things, as seen in `graphing_conditional.m`
+- After processing, place `data_raw`, `data_cleaned`, `data_spliced`, `graphs` and `ls.txt` into some folder of your choice(for eg, `processed_data_01`), and you can process more data by following the previous steps again
 - NOTE: the format that this works for is comma-separated data with timestamps at the start, for example
 ```
 2022-05-23 01:38:56.362883,133.0,20.0,77.0,105.0,35.0
